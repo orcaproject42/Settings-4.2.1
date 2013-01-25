@@ -993,7 +993,6 @@
         <item>@*android:drawable/ic_lockscreen_phone</item>
         <item>@*android:drawable/ic_lockscreen_podcast</item>
         <item>@*android:drawable/ic_lockscreen_rss</item>
-        <item>@*android:drawable/ic_lockscreen_google</item>
         <item>@*android:drawable/ic_lockscreen_twitter</item>
     </string-array>
 

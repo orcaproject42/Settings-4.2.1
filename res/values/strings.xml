@@ -4475,6 +4475,8 @@
     <string name="other_cat">Other Settings</string>
     <string name="orca_extras">Orca Settings</string>
     <string name="lockscreen_stub">Lock Screen</string>
+    <string name="settings_orcapapers">Orca Wallpapers</string>
+    <string name="dpi_settings">DPI Settings</string>
     <string name="misc">Misc</string>
 
     <!--- Volume key cursor control -->

@@ -10,3 +10,11 @@ res/drawable-mdpi/ic_settings_ui.png
 res/drawable-xhdpi/ ic_settings_ui.png
 
 res/drawable-xhdpi/ic_settings_ui.png
+
+.DS_Store
+
+res/.DS_Store
+
+res/xml/.DS_Store
+
+res/xml/about_rom.xml

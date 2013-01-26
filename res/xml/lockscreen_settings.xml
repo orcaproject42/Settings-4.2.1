@@ -31,13 +31,13 @@
 
         <Preference
             android:key="lockscreen_targets"
-            android:fragment="com.android.settings.fnv.Targets"
+            android:fragment="com.android.settings.orca.Targets"
             android:title="@string/lockscreen_target_title"
             android:summary="@string/lockscreen_target_summary" />
 
         <PreferenceScreen
             android:key="lock_screen_shortcuts"
-            android:fragment="com.android.settings.fnv.Shortcuts"
+            android:fragment="com.android.settings.orca.Shortcuts"
             android:title="@string/lock_screen_shortcuts_title"
             android:summary="@string/lock_screen_shortcuts_summary" />
 

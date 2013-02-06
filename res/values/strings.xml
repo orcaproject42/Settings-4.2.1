@@ -4866,6 +4866,9 @@
     <string name="lock_clock_title">Clock widget</string>
     <string name="lock_clock_summary">View or change how the \'Chronus\' Home and Lock screen widgets will display</string>
 
+    <string name="anonymous_statistics_title">Orca statistics</string>
+    <string name="anonymous_statistics_summary">Help make Orca better by opting into anonymous statistics reporting</string>
+
     <!-- **ORCA ACTIVITIES MODIFICATIONS ENDS** -->
 
 </resources>

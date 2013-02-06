@@ -92,7 +92,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment {
         findPreference(KEY_BUILD_NUMBER).setEnabled(true);
         setStringSummary(KEY_KERNEL_VERSION, getFormattedKernelVersion());
         findPreference(KEY_KERNEL_VERSION).setEnabled(true);
-        setValueSummary(KEY_MOD_VERSION, "ro.xylon.version");
+        setValueSummary(KEY_MOD_VERSION, "ro.orca.version");
         findPreference(KEY_MOD_VERSION).setEnabled(true);
         findPreference(KEY_MOD_VERSION).setEnabled(true);
         setValueSummary(KEY_MOD_BUILD_DATE, "ro.build.date");
@@ -227,7 +227,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment {
             mHits[mHits.length-1] = SystemClock.uptimeMillis();
             if (mHits[0] >= (SystemClock.uptimeMillis()-500)) {
                 Intent intent = new Intent(Intent.ACTION_MAIN);
-                intent.putExtra("is_xy", true);
+                intent.putExtra("is_oc", true);
                 intent.setClassName("android",
                         com.android.internal.app.PlatLogoActivity.class.getName());
                 try {
